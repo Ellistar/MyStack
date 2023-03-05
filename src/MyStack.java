@@ -26,6 +26,7 @@ public void push(Object value) {
             }
             elements = newerArray;
             size--;
+            top--;
         }
 
     public void clear() {
